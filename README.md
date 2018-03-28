@@ -36,20 +36,6 @@ The grid size should be selectable by the user.
 Of course you should detect when the game ends and who wins, and offer to start a new game. The example solution
 shows the winning squares on green background when the game ends.
 
-#### Bonus game related points
-
-Smaller bonus - store the game history and display which side is winning in the long run. This is implemented
-in the example solution
-
-Bigger bonus - make the games rewindable. This is no implemented in the example solution.
-
-### Regenerating components
-
-Every component needs to have the ability to regenerate - in other words, if there is an error inside a component, there
-should be a way for the component to recover to a functioning state without breaking the whole app. You can
-see an example of this in the example app (the 'Break me' button breaks the component it lives in). For convenience,
-we appreciate a creative way to trigger errors in components to demonstrate this behaviour.
-
 ### Tests for critical parts of the application
 
 What are the critival parts of this application? You decide.
@@ -70,6 +56,22 @@ Bonus points - deploy your solution in Heroku or other comparable service.
 ## Returning the assignment
 
 We want to inspect your code, so please deliver the solution as specified by the person who delivers this assignment.
+
+## Extras
+
+### Regenerating components
+
+Every component has the ability to regenerate - in other words, if there is an error inside a component, there
+should be a way for the component to recover to a functioning state without breaking the whole app. You can
+see an example of this in the example app (the 'Break me' button breaks the component it lives in). For convenience,
+we appreciate a creative way to trigger errors in components to demonstrate this behaviour.
+
+#### Bonus game related points
+
+Smaller bonus - store the game history and display which side is winning in the long run. This is implemented
+in the example solution
+
+Bigger bonus - make the games rewindable. This is no implemented in the example solution.
 
 ## Questions?
 
